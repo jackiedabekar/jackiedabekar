@@ -12,4 +12,4 @@
 :rocket:(https://www.youtube.com/channel/UChIBFcd06-yA8ShlA_KwFQA/)<br>
 [InstaGram](https://www.instagram.com/jackiedabekar/)<br>
 [Linkdin](https://www.linkedin.com/in/deepak-dabekar-494979189/)<br>
-![Alt text](svgfiles/youtube.svg?raw=true "Title")
+<a href=''><img src="https://youtube.com/favicon.ico" align="left" height="48" width="48" ></a>
