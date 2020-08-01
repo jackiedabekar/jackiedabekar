@@ -2,10 +2,6 @@
 
 ### I am a enthusiastic techie and python developer
 
-<!--
-**jackiedabekar/jackiedabekar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-
 -😅 I,m still learner in python curve
 -🔭 I’m currently working on deploying ML model with Django
 - 🌱 I’m currently learning ML, OpenCV and Django
