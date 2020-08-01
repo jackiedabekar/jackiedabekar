@@ -9,6 +9,6 @@
 - 💬 Ask me about Python related stuff
 - ⚡ Fun fact: Python got its name form british show and Django is one type of music style
 
-[youtube]: https://www.youtube.com/channel/UChIBFcd06-yA8ShlA_KwFQA/ - automatic!
+[youtube]: https://www.youtube.com/channel/UChIBFcd06-yA8ShlA_KwFQA/
 [instagram]: https://www.instagram.com/jackiedabekar/
 [linkdin]: https://www.linkedin.com/in/deepak-dabekar-494979189/
