@@ -1,13 +1,13 @@
-### Hi there 👋 I'm Jackie
+### Hi there 👋 I'm Deepak Dabekar - aka jackiedabekar
 
-## I am a enthusiastic techie and python developer
+### I am a enthusiastic techie and python developer
 
 <!--
 **jackiedabekar/jackiedabekar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 
-- 😅 I,m still learner in python curve
-- 🔭 I’m currently working on deploying ML model with Django
+-😅 I,m still learner in python curve
+-🔭 I’m currently working on deploying ML model with Django
 - 🌱 I’m currently learning ML, OpenCV and Django
 - 🤔 I’m looking for help with Django
 - 💬 Ask me about Python related stuff
