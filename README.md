@@ -2,7 +2,7 @@
 
 ### I am a enthusiastic techie and python developer
 
-- 😅 I'm still learning of Python Programming
+- 😅 I'm still in learning of Python Programming
 - 🔭 I’m currently working on deploying ML model on web with Django
 - 🌱 I’m currently learning ML, OpenCV and Django
 - 🤔 I’m looking for help with Django
