@@ -2,8 +2,8 @@
 
 ### I am a enthusiastic techie and python developer
 
-- 😅 I'm still learner in python curve
-- 🔭 I’m currently working on deploying ML model with Django
+- 😅 I'm still learning of Python Programming
+- 🔭 I’m currently working on deploying ML model on web with Django
 - 🌱 I’m currently learning ML, OpenCV and Django
 - 🤔 I’m looking for help with Django
 - 💬 Ask me about Python related stuff
