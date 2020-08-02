@@ -2,12 +2,12 @@
 
 ### I am a enthusiastic techie and python developer
 
-- 😅 I'm still in learning of Python Programming
+- 😅 I'm still in learning curve of Python Programming
 - 🔭 I’m currently working on deploying ML model on web with Django
 - 🌱 I’m currently learning ML, OpenCV and Django
 - 🤔 I’m looking for help with Django
 - 💬 Ask me about Python related stuff
-- ⚡ Fun fact: Python got its name form british show and Django is one type of music style
+- ⚡ Fun fact: Python got its name form british show Monty Python Flying Circus and Django is one type of music style
 - 📱 For Contact 👇🏼
 
 <a href='https://www.youtube.com/channel/UChIBFcd06-yA8ShlA_KwFQA/featured'>
