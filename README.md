@@ -1,4 +1,4 @@
-### Hi there 👋 I'm Deepak Dabekar - aka jackiedabekar <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/Channel%20logo.svg" align="left" height="40" width="40" >
+### Hi there 👋 I'm Deepak Dabekar - aka jackiedabekar<br><img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/Channel%20logo.svg" align="left" height="40" width="40" >
 
 ### I am a enthusiastic techie and python developer 
 
