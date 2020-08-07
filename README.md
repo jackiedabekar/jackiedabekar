@@ -1,6 +1,6 @@
 ### Hi there 👋 I'm Deepak Dabekar - aka jackiedabekar
 
-### I am a enthusiastic techie and python developer<br>
+### I am a enthusiastic techie and python developer
 - 😅 I'm still in learning curve of Python Programming
 - 🔭 I’m currently working on deploying ML model on web with Django
 - 🌱 I’m currently learning ML, OpenCV and Django
