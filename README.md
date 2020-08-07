@@ -1,6 +1,6 @@
-### Hi there 👋 I'm Deepak Dabekar - aka jackiedabekar
+### Hi there 👋 I'm Deepak Dabekar - aka jackiedabekar <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/Channel%20logo.svg" align="left" height="40" width="40" >
 
-### I am a enthusiastic techie and python developer
+### I am a enthusiastic techie and python developer 
 
 - 😅 I'm still in learning curve of Python Programming
 - 🔭 I’m currently working on deploying ML model on web with Django
