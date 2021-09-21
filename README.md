@@ -1,4 +1,6 @@
-# Deepak Dabekar&nbsp;<img src="https://tenor.com/view/animated-man-running-pixelated-gif-17364398" width="30px" height="35px">
+# Deepak Dabekar&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/animated-man-running.gif" width="30px" height="35px">
+
+### <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/Hi.gif" width="29px"> Hello world!&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/owl-groove-commission.gif" width="24px">
 
 ### I am a enthusiastic techie and python developer
 - 😅 I'm still in learning curve of Python Programming
