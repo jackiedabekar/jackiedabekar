@@ -13,7 +13,6 @@
 - 😅 I'm still in learning curve of Python Programming
 - 🔭 I’m currently working on deploying ML model on web with Django
 - 🌱 I’m currently learning ML, OpenCV and Django
-- 🤔 I’m looking for help with Django
 - 💬 Ask me about Python related stuff
 - ⚡ Fun fact: Python got its name form british show Monty Python Flying Circus and Django is one type of music style
 
@@ -24,6 +23,8 @@
 
 ![Jackie's GitHub stats](https://github-readme-stats.vercel.app/api?username=jackiedabekar&count_private=true&theme=radical)
 ---
+
+### For Anu Queries&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/clickables-liesvdbersselaar.gif" width="50px" height="60px">
 
   <a href='https://www.youtube.com/channel/UChIBFcd06-yA8ShlA_KwFQA/featured'>
     <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/Youtub.gif" align="left" height="40" width="40" >
