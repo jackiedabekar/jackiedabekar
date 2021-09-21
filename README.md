@@ -24,7 +24,7 @@
 ![Jackie's GitHub stats](https://github-readme-stats.vercel.app/api?username=jackiedabekar&count_private=true&theme=radical)
 ---
 
-### For Anu Queries&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/clickables-liesvdbersselaar.gif" width="50px" height="60px">
+### For Anu Queries&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/clickables-liesvdbersselaar.gif" width="100px" height="100px">
 
   <a href='https://www.youtube.com/channel/UChIBFcd06-yA8ShlA_KwFQA/featured'>
     <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/Youtub.gif" align="left" height="40" width="40" >
