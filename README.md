@@ -2,6 +2,13 @@
 
 ### <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/Hi.gif" width="29px"> Hello world!&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/owl-groove-commission.gif" width="24px">
 
+<p>
+  <em>
+    I am a self learned Python, Django Developer <a href="https://www.sjcem.edu.in/"> <b>St. John College Of Engineering And Management</b>, Palghar</a>. <br>
+    Boy's who loves to <b>code</b> <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/flossing-astronaut.gif" width="15px" height="20px"> <b>Software Developer</b>&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/designer.gif" width="36px"><br> Strong eye for <b>detail</b> and <b>tenacity</b> to never quit on something until it is <b>absolutely perfect</b>&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/medal.gif" width="20px">
+  </em>  
+</p>
+
 ### I am a enthusiastic techie and python developer
 - 😅 I'm still in learning curve of Python Programming
 - 🔭 I’m currently working on deploying ML model on web with Django
@@ -10,10 +17,12 @@
 - 💬 Ask me about Python related stuff
 - ⚡ Fun fact: Python got its name form british show Monty Python Flying Circus and Django is one type of music style
 
+---
 📈 My Github Stats:
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jackiedabekar&theme=radical) 
 
 ![Jackie's GitHub stats](https://github-readme-stats.vercel.app/api?username=jackiedabekar&count_private=true&theme=radical)
+---
 
 <a href='https://www.youtube.com/channel/UChIBFcd06-yA8ShlA_KwFQA/featured'>
 <img src="https://camo.githubusercontent.com/33faa4fa48fe28c11ace1986cc89bb01824a04a4/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f796f75747562652e737667" align="left" height="40" width="40" ></a>
