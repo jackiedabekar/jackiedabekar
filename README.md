@@ -1,4 +1,4 @@
-### Hi there 👋 I'm Deepak Dabekar - aka jackiedabekar
+# Deepak Dabekar&nbsp;<img src="https://tenor.com/view/animated-man-running-pixelated-gif-17364398" width="30px" height="35px">
 
 ### I am a enthusiastic techie and python developer
 - 😅 I'm still in learning curve of Python Programming
@@ -7,7 +7,6 @@
 - 🤔 I’m looking for help with Django
 - 💬 Ask me about Python related stuff
 - ⚡ Fun fact: Python got its name form british show Monty Python Flying Circus and Django is one type of music style
-- 📱 For Contact 👇🏼
 
 📈 My Github Stats:
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jackiedabekar&theme=radical) 
