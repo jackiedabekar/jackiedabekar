@@ -1,4 +1,4 @@
-# Deepak Dabekar&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/animated-man-running.gif" width="30px" height="35px">
+# Deepak Dabekar&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/animated-man-running.gif" width="45px" height="45px">
 
 ### <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/Hi.gif" width="29px"> Hello world!&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/owl-groove-commission.gif" width="24px">
 
@@ -10,7 +10,7 @@
 </p>
 
 ### I am a enthusiastic techie and python developer
-- <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/upset.gif" width="30px" height="30px"> I'm still in learning curve of Python🐍 and Stock Trading📈.
+- <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/upset.gif" width="20px" height="20px"> I'm still in learning curve of Python🐍 and Stock Trading📈.
 - 🔭 I’m currently working on deploying ML model on web with Django and React.
 - 🌱 I’m currently learning ML, OpenCV and Django.
 - 💬 Ask me about Python related stuff.
