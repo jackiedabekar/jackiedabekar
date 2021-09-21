@@ -25,17 +25,20 @@
 ![Jackie's GitHub stats](https://github-readme-stats.vercel.app/api?username=jackiedabekar&count_private=true&theme=radical)
 ---
 
-<a href='https://www.youtube.com/channel/UChIBFcd06-yA8ShlA_KwFQA/featured'>
-<img src="https://camo.githubusercontent.com/33faa4fa48fe28c11ace1986cc89bb01824a04a4/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f796f75747562652e737667" align="left" height="40" width="40" ></a>
+  <a href='https://www.youtube.com/channel/UChIBFcd06-yA8ShlA_KwFQA/featured'>
+    <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/Youtub.gif" align="left" height="40" width="40" >
+  </a>
 
-<a href='https://twitter.com/jackiedabekar'>
-<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/twitter-png.gif" align="left" height="40" width="40" ></a>
+  <a href='https://twitter.com/jackiedabekar'>
+    <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/twitter-png.gif" align="left" height="40" width="40" >
+  </a>
 
-<a href='https://www.instagram.com/jackiedabekar/'>
-<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/downsign-linked-in.gif" align="left" height="40" width="40" ></a>
+  <a href='https://www.instagram.com/jackiedabekar/'>
+    <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/instagram-sign-on-instagram.gif" align="left" height="40" width="40" >
+  </a>
 
   <a href="https://www.linkedin.com/in/deepakvdabekar/">
-    <img align="left" alt="Saloni Gupta | Linkedin" width="24px" src="https://github.com/salonigupta1/salonigupta1/blob/master/Assets/Linkedin.svg" />
+    <img align="left" alt="Deepak Dabekar| Linkedin" width="24px" src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/LinkedIn_logo_initials.png" />
   </a>
 
 #### ✨ [Skyline View](https://skyline.github.com/jackiedabekar/2021)
