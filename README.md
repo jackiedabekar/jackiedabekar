@@ -1,6 +1,6 @@
 # Deepak Dabekar&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/animated-man-running.gif" width="45px" height="45px">
 
-### <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/Hi.gif" width="29px"> Hello world!&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/owl-groove-commission.gif" width="24px">
+### <img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/Hi.gif" width="20px"> Hello world!&nbsp;<img src="https://github.com/jackiedabekar/jackiedabekar/blob/master/svgfiles/owl-groove-commission.gif" width="24px">
 
 <p>
   <em>
