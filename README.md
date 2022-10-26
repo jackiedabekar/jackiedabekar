@@ -15,6 +15,7 @@
 - 🌱 I’m currently learning everything😛 with ML, OpenCV and Django.
 - 💬 Ask me about Python related stuff.
 - ⚡ Fun fact: Python got its name form british show Monty Python Flying Circus and Django is one type of music style.
+- :india: Holopin badges
 
 [![@jackedabekar's Holopin board](https://holopin.io/api/user/board?user=jackedabekar)](https://holopin.io/@jackedabekar)
 
