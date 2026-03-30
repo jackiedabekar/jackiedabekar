@@ -101,6 +101,8 @@ Self-taught, **Google Certified Python Developer** with 5+ years of building thi
 
 <img src="./svgfiles/animated-man-running.gif" width="40px" />
 
+### Thanks for stopping by! Let's build something awesome together.
+
 *If it can be automated, it should be.*
 
 **Open to collaborations on backend, API, and AI/LLM projects!**
@@ -109,4 +111,4 @@ Self-taught, **Google Certified Python Developer** with 5+ years of building thi
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&reversal=true&section=footer&text=Happy%20Coding!&fontSize=30&animation=fadeIn&fontColor=ffffff" width="100%" />
