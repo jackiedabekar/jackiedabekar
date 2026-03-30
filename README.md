@@ -71,11 +71,11 @@ Self-taught, **Google Certified Python Developer** with 5+ years of building thi
 
 <div align="center">
 
-![Google](https://img.shields.io/badge/Google-Application_Development_Python-4285F4?style=flat-square&logo=google&logoColor=white)
-![Coursera](https://img.shields.io/badge/Coursera-Crash_Course_for_Python-0056D2?style=flat-square&logo=coursera&logoColor=white)
-![Coursera](https://img.shields.io/badge/Coursera-Python_to_Interact_with_OS-0056D2?style=flat-square&logo=coursera&logoColor=white)
-![Coursera](https://img.shields.io/badge/Coursera-Intro_to_Git_&_GitHub-0056D2?style=flat-square&logo=coursera&logoColor=white)
-![Docker](https://img.shields.io/badge/KodeKloud-Docker_Hands_On_Lab-2496ED?style=flat-square&logo=docker&logoColor=white)
+[![Google](https://img.shields.io/badge/Google-Application_Development_Python-4285F4?style=flat-square&logo=google&logoColor=white)](https://www.qwiklabs.com/public_profiles/3bf7ca88-2b64-43d7-b954-18432a5037a2/badges/82577)
+[![Coursera](https://img.shields.io/badge/Coursera-Crash_Course_for_Python-0056D2?style=flat-square&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/certificate/3JCTY2WSV7MK)
+[![Coursera](https://img.shields.io/badge/Coursera-Python_to_Interact_with_OS-0056D2?style=flat-square&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/verify/PEMV6GYQ9UP2)
+[![Coursera](https://img.shields.io/badge/Coursera-Intro_to_Git_&_GitHub-0056D2?style=flat-square&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/certificate/4PK7BC5W8ZC3)
+[![Docker](https://img.shields.io/badge/KodeKloud-Docker_Hands_On_Lab-2496ED?style=flat-square&logo=docker&logoColor=white)](https://learn.kodekloud.com/certificate/2D0F9B046318-2D0F9B701CD2-2D0F8F7407F0)
 
 </div>
 
