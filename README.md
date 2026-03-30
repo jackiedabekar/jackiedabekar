@@ -27,8 +27,8 @@
 Self-taught, **Google Certified Python Developer** with 5+ years of building things that live on the backend. I love turning complex problems into clean, scalable APIs and automating everything I can get my hands on.
 
 - <img src="./svgfiles/owl-groove-commission.gif" width="20px" /> Currently working with **LLM APIs, RAG pipelines** and **AI chatbots**
-- <img src="./svgfiles/medal.gif" width="18px" /> Built systems handling **10K+ users** and optimized processes by **20x**
-- <img src="./svgfiles/upset.gif" width="18px" /> Always learning -- currently deep into **AI/ML** and **stock market technical analysis**
+- <img src="./svgfiles/medal.gif" width="18px" /> Built systems to automate complex and manual tasks.
+- <img src="./svgfiles/upset.gif" width="18px" /> Always learning -- currently deep into **LLM/RAG/STT/TTS** and **stock market technical analysis**
 - Ask me about **Python, Django, APIs** or anything backend
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
