@@ -1,1 +1,4 @@
 *.pdf
+!Deepak-V-Dabekar.pdf
+node_modules/
+!generate-pdf.js

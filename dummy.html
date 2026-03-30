@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepak V. Dabekar - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/framer-motion@11.0.0/dist/framer-motion.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        accent: '#2a7a6f',
+                        'accent-light': '#e8f5f3',
+                        'text-primary': '#1a1a1a',
+                        'text-secondary': '#4a4a4a',
+                        'text-muted': '#6b7280',
+                        'border-light': '#e5e7eb',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        @media print {
+            body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .no-print { display: none; }
+            .page-break { page-break-before: always; }
+            @page { margin: 0; size: A4; }
+        }
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .animate-on-scroll { opacity: 0; transform: translateY(16px); transition: all 0.5s ease-out; }
+        .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
+        .skill-tag { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .skill-tag:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(42, 122, 111, 0.2); }
+        .timeline-item { position: relative; padding-left: 20px; }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #2a7a6f;
+        }
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 3.5px;
+            top: 20px;
+            width: 1px;
+            height: calc(100% - 12px);
+            background: #d1d5db;
+        }
+        .timeline-item:last-child::after { display: none; }
+    </style>
+</head>
+<body class="bg-white text-text-primary">
+
+    <!-- Resume Container -->
+    <div class="max-w-[850px] mx-auto">
+
+        <!-- Header -->
+        <header class="bg-accent text-white px-8 pt-5 pb-4">
+            <div class="animate-on-scroll">
+                <h1 class="text-2xl font-bold tracking-tight">Deepak V. Dabekar</h1>
+                <p class="text-accent-light text-base font-medium mt-0.5">Django Python Developer</p>
+            </div>
+            <div class="animate-on-scroll flex flex-wrap gap-x-5 gap-y-1 mt-3 text-xs text-green-100">
+                <a href="mailto:deepakvdabekar@gmail.com" class="hover:text-white flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
+                    deepakvdabekar@gmail.com
+                </a>
+                <a href="tel:+918888193052" class="hover:text-white flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                    +91 8888193052
+                </a>
+                <span class="flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>
+                    Palghar, India
+                </span>
+                <a href="https://www.linkedin.com/in/deepakvdabekar/" class="hover:text-white flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    deepakvdabekar
+                </a>
+                <a href="https://github.com/jackiedabekar" class="hover:text-white flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    jackiedabekar
+                </a>
+            </div>
+        </header>
+
+        <!-- Body -->
+        <main class="px-8 py-5">
+
+            <!-- Summary -->
+            <section class="animate-on-scroll mb-5">
+                <h2 class="text-sm font-bold text-accent uppercase tracking-widest border-b-2 border-accent pb-1 mb-2.5">Summary</h2>
+                <p class="text-sm text-text-secondary leading-relaxed">
+                    Self-taught, <strong>Google Certified Python Developer</strong> with <strong>5+ years</strong> of experience building scalable backend systems, REST APIs, and production infrastructure. Shipped systems serving <strong>10K+ users</strong>, cut infrastructure costs by <strong>90%</strong>, and delivered <strong>20x performance improvements</strong>. Currently building AI-powered chatbots with LLM/RAG pipelines while owning the full DevOps stack.
+                </p>
+            </section>
+
+            <!-- Skills -->
+            <section class="animate-on-scroll mb-5">
+                <h2 class="text-sm font-bold text-accent uppercase tracking-widest border-b-2 border-accent pb-1 mb-2.5">Skills</h2>
+                <div class="flex flex-wrap gap-1.5 mt-1">
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Python</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Django</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Django REST Framework</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">FastAPI</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Celery</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">PostgreSQL</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">PgBouncer</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Docker</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Docker Compose</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Nginx</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Linux</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">AWS S3</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">GitHub Actions</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Git</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">LLM / RAG</span>
+                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Web Scraping</span>
+                </div>
+            </section>
+
+            <!-- Experience -->
+            <section class="animate-on-scroll mb-5">
+                <h2 class="text-sm font-bold text-accent uppercase tracking-widest border-b-2 border-accent pb-1 mb-2.5">Professional Experience</h2>
+
+                <div class="timeline-item pb-4">
+                    <div class="flex justify-between items-baseline mb-0.5">
+                        <h3 class="text-sm font-bold text-text-primary">Nexby AI Solutions Pvt. Ltd. <span class="font-normal text-text-muted text-xs">(Parent company Atishay Limited)</span></h3>
+                        <span class="text-xs text-text-muted whitespace-nowrap ml-4">Oct 2024 &ndash; Present</span>
+                    </div>
+                    <p class="text-xs text-accent font-medium">Backend Developer &bull; Mumbai, India</p>
+                </div>
+
+                <div class="timeline-item pb-4">
+                    <div class="flex justify-between items-baseline mb-0.5">
+                        <h3 class="text-sm font-bold text-text-primary">Atishay Limited</h3>
+                        <span class="text-xs text-text-muted whitespace-nowrap ml-4">Sep 2023 &ndash; Sep 2024</span>
+                    </div>
+                    <p class="text-xs text-accent font-medium">Python Developer &bull; Mumbai, India</p>
+                </div>
+
+                <div class="timeline-item pb-4">
+                    <div class="flex justify-between items-baseline mb-0.5">
+                        <h3 class="text-sm font-bold text-text-primary">Caplist <span class="font-normal text-text-muted text-xs">(Mavenup Technology)</span></h3>
+                        <span class="text-xs text-text-muted whitespace-nowrap ml-4">Feb 2023 &ndash; Aug 2023</span>
+                    </div>
+                    <p class="text-xs text-accent font-medium">Software Engineer &bull; Oslo, Norway</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="flex justify-between items-baseline mb-0.5">
+                        <h3 class="text-sm font-bold text-text-primary">Nimap Infotech</h3>
+                        <span class="text-xs text-text-muted whitespace-nowrap ml-4">Feb 2021 &ndash; Feb 2023</span>
+                    </div>
+                    <p class="text-xs text-accent font-medium">Python Django Developer &bull; Lower Parel, India</p>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="animate-on-scroll mb-5">
+                <h2 class="text-sm font-bold text-accent uppercase tracking-widest border-b-2 border-accent pb-1 mb-2.5">Key Projects</h2>
+
+                <!-- Nexby -->
+                <div class="mb-3.5">
+                    <div class="flex justify-between items-baseline mb-1">
+                        <h3 class="text-sm font-semibold text-text-primary">Nexby AI Solutions Pvt. Ltd. <span class="font-normal text-text-muted text-xs">(formerly Atishay Limited)</span></h3>
+                        <span class="text-xs text-text-muted whitespace-nowrap ml-4">Sep 2023 &ndash; Present</span>
+                    </div>
+                    <ul class="text-xs text-text-secondary leading-relaxed space-y-0.5 list-disc list-outside ml-4">
+                        <li>Reduced monthly infrastructure costs by <strong>90% (&#8377;1L to &#8377;10K)</strong> through server optimization and architecture restructuring.</li>
+                        <li>Sole DevOps owner &mdash; set up <strong>PostgreSQL + PgBouncer</strong>, executed full <strong>server &amp; database migrations</strong>, configured <strong>SSL, domains, and Nginx</strong>.</li>
+                        <li>Integrated <strong>LLM-based APIs with WhatsApp</strong> for intelligent chatbots serving multiple business clients.</li>
+                        <li>Developed <strong>RAG architecture</strong> with file sharing and <strong>AWS S3</strong> integration to enhance chatbot intelligence.</li>
+                        <li>Built <strong>SalesX</strong> (marketing automation) and an <strong>HR recruitment system</strong> using Django.</li>
+                        <li>Set up <strong>CI/CD pipelines</strong> using GitHub Actions, containerized all applications with <strong>Docker</strong>.</li>
+                        <li>Built web scraping bots for automated data collection and analysis.</li>
+                        <li>Led team task alignment and resolved cross-team technical blockers.</li>
+                    </ul>
+                </div>
+
+                <!-- Caplist -->
+                <div class="mb-3.5">
+                    <div class="flex justify-between items-baseline mb-1">
+                        <h3 class="text-sm font-semibold text-text-primary">Caplist <span class="font-normal text-text-muted text-xs">(Product to manage organised AGM & BM)</span></h3>
+                        <span class="text-xs text-text-muted whitespace-nowrap ml-4">Feb 2023 &ndash; Jun 2023</span>
+                    </div>
+                    <ul class="text-xs text-text-secondary leading-relaxed space-y-0.5 list-disc list-outside ml-4">
+                        <li>Optimized shareholder <strong>CAP-TABLE upload from 50s to 2.5s</strong> (20x improvement).</li>
+                        <li>Built APIs for <strong>live voting</strong>, shareholder communication, and certificate downloading.</li>
+                        <li>Enhanced email delivery systems to reduce bounce rates and improve deliverability.</li>
+                        <li>Improved platform performance and localization for <strong>Norwegian and English</strong> audiences.</li>
+                    </ul>
+                </div>
+
+                <!-- Nimap Infotech Clients -->
+                <div>
+                    <div class="flex justify-between items-baseline mb-1">
+                        <h3 class="text-sm font-semibold text-text-primary">Nimap Infotech <span class="font-normal text-text-muted text-xs">(Monexo &amp; LendenClub Techserve LTD)</span></h3>
+                        <span class="text-xs text-text-muted whitespace-nowrap ml-4">Feb 2021 &ndash; Feb 2023</span>
+                    </div>
+                    <ul class="text-xs text-text-secondary leading-relaxed space-y-0.5 list-disc list-outside ml-4">
+                        <li>Created APIs for a platform that handles <strong>10K+ users</strong> and wrote automated and time-based scripts.</li>
+                        <li>Wrote a <strong>decision-making engine</strong> for processing loans as per their credit score.</li>
+                        <li>Built APIs and created <strong>CMS</strong> for the internal team.</li>
+                        <li>Developed <strong>microservice-based architecture</strong> for ENACH system.</li>
+                        <li>Automated the process of ENACH and Physical NACH.</li>
+                        <li>Reduced the tech team's monitoring workload by automating <strong>cronjob status tracking</strong>.</li>
+                        <li>Automated sending <strong>NOC letters</strong> by generating PDFs.</li>
+                        <li>Containerized the CMS system backend using Docker.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Two Column: Certifications + Education -->
+            <div class="grid grid-cols-2 gap-6 mb-5">
+
+                <!-- Certifications -->
+                <section class="animate-on-scroll">
+                    <h2 class="text-sm font-bold text-accent uppercase tracking-widest border-b-2 border-accent pb-1 mb-2.5">Certifications</h2>
+                    <ul class="text-xs text-text-secondary space-y-1.5">
+                        <li class="flex items-start gap-2">
+                            <span class="text-accent mt-0.5">&#9679;</span>
+                            <div><a href="https://www.qwiklabs.com/public_profiles/3bf7ca88-2b64-43d7-b954-18432a5037a2/badges/82577" class="text-text-primary hover:text-accent"><strong>Application Development - Python</strong></a><br><span class="text-text-muted">Google</span></div>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-accent mt-0.5">&#9679;</span>
+                            <div><a href="https://www.coursera.org/account/accomplishments/certificate/3JCTY2WSV7MK" class="text-text-primary hover:text-accent"><strong>Crash Course for Python</strong></a><br><span class="text-text-muted">Coursera</span></div>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-accent mt-0.5">&#9679;</span>
+                            <div><a href="https://www.coursera.org/account/accomplishments/verify/PEMV6GYQ9UP2" class="text-text-primary hover:text-accent"><strong>Using Python to Interact with OS</strong></a><br><span class="text-text-muted">Coursera</span></div>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-accent mt-0.5">&#9679;</span>
+                            <div><a href="https://www.coursera.org/account/accomplishments/certificate/4PK7BC5W8ZC3" class="text-text-primary hover:text-accent"><strong>Introduction to Git and GitHub</strong></a><br><span class="text-text-muted">Coursera</span></div>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-accent mt-0.5">&#9679;</span>
+                            <div><a href="https://learn.kodekloud.com/certificate/2D0F9B046318-2D0F9B701CD2-2D0F8F7407F0" class="text-text-primary hover:text-accent"><strong>Docker with Hands-On Lab</strong></a><br><span class="text-text-muted">KodeKloud</span></div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Education -->
+                <section class="animate-on-scroll">
+                    <h2 class="text-sm font-bold text-accent uppercase tracking-widest border-b-2 border-accent pb-1 mb-2.5">Education</h2>
+                    <ul class="text-xs text-text-secondary space-y-2">
+                        <li>
+                            <strong>Bachelor in Computer Science</strong> <span class="text-text-muted">(Partially Completed)</span><br>
+                            <span class="text-text-muted">St. John College of Engineering & Management, Palghar</span><br>
+                            <span class="text-text-muted">2015 &ndash; 2020</span>
+                        </li>
+                        <li>
+                            <strong>Higher Secondary Education</strong><br>
+                            <span class="text-text-muted">Uttkarsha Vidyalay, Virar</span><br>
+                            <span class="text-text-muted">2013 &ndash; 2015</span>
+                        </li>
+                        <li>
+                            <strong>Secondary School Certificate</strong><br>
+                            <span class="text-text-muted">J.B.S English High School, Nallasopara</span><br>
+                            <span class="text-text-muted">2004 &ndash; 2013</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Two Column: Languages + Interests -->
+            <div class="grid grid-cols-2 gap-6">
+                <section class="animate-on-scroll">
+                    <h2 class="text-sm font-bold text-accent uppercase tracking-widest border-b-2 border-accent pb-1 mb-2.5">Languages</h2>
+                    <div class="text-xs text-text-secondary space-y-1">
+                        <div class="flex justify-between"><span>English</span><span class="text-text-muted">Professional</span></div>
+                        <div class="flex justify-between"><span>Hindi</span><span class="text-text-muted">Professional</span></div>
+                        <div class="flex justify-between"><span>Marathi</span><span class="text-text-muted">Native</span></div>
+                        <div class="flex justify-between"><span>Gujarati</span><span class="text-text-muted">Conversational</span></div>
+                    </div>
+                </section>
+
+                <section class="animate-on-scroll">
+                    <h2 class="text-sm font-bold text-accent uppercase tracking-widest border-b-2 border-accent pb-1 mb-2.5">Interests</h2>
+                    <div class="flex flex-wrap gap-x-4 gap-y-1 text-xs text-text-secondary">
+                        <span>Stock Market Trading</span>
+                        <span>Trekking</span>
+                        <span>Music</span>
+                        <span>Gaming</span>
+                    </div>
+                </section>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Scroll Animation Script -->
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('visible');
+                    }, index * 80);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>

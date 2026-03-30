@@ -93,6 +93,17 @@ Self-taught, **Google Certified Python Developer** with 5+ years of building thi
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+### Resume
+
+<div align="center">
+
+[![View Resume](https://img.shields.io/badge/View_Resume-Online-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jackiedabekar.github.io/jackiedabekar/resume.html)
+[![Download PDF](https://img.shields.io/badge/Download_Resume-PDF-EA4335?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/jackiedabekar/jackiedabekar/raw/master/Deepak-V-Dabekar.pdf)
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 ### Holopin Badges
 
 [![@jackedabekar's Holopin board](https://holopin.io/api/user/board?user=jackedabekar)](https://holopin.io/@jackedabekar)
