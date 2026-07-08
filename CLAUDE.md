@@ -24,6 +24,8 @@ node generate-pdf.js
 
 There is no build, lint, or test setup. `package.json` has no scripts.
 
+A GitHub Actions workflow (`.github/workflows/generate-resume-pdf.yml`) regenerates and commits the PDF automatically on any push to `master` that touches `resume.html` or `generate-pdf.js` — but the README links serve `master`, so resume changes only reach visitors once merged there.
+
 ## resume.html architecture
 
 Everything (styling, config, behavior) lives inline in the one file — there is no bundler or asset pipeline:
