@@ -2,3 +2,6 @@
 !Deepak-V-Dabekar.pdf
 node_modules/
 !generate-pdf.js
+
+# Private job-search notes — never publish
+changes.md
