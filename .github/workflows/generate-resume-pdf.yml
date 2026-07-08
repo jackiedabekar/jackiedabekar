@@ -26,9 +26,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Chrome system dependencies
-        run: npx puppeteer browsers install chrome --install-deps
-
       - name: Generate PDF
         run: node generate-pdf.js
 
