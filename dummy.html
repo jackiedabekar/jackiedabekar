@@ -32,6 +32,8 @@
             .no-print { display: none; }
             .page-break { page-break-before: always; }
             @page { margin: 0; size: A4; }
+            section > div { break-inside: avoid; }
+            h2, h3 { break-after: avoid; }
         }
         body { font-family: 'Inter', system-ui, sans-serif; }
         .animate-on-scroll { opacity: 0; transform: translateY(16px); transition: all 0.5s ease-out; }
@@ -103,30 +105,54 @@
             <section class="animate-on-scroll mb-5">
                 <h2 class="text-sm font-bold text-accent uppercase tracking-widest border-b-2 border-accent pb-1 mb-2.5">Summary</h2>
                 <p class="text-sm text-text-secondary leading-relaxed">
-                    Self-taught, <strong>Google Certified Python Developer</strong> with <strong>5+ years</strong> of experience building scalable backend systems, REST APIs, and production infrastructure. Shipped systems serving <strong>10K+ users</strong>, cut infrastructure costs by <strong>90%</strong>, and delivered <strong>20x performance improvements</strong>. Currently building AI-powered chatbots with LLM/RAG pipelines while owning the full DevOps stack.
+                    Self-taught, <strong>Google Certified Python Developer</strong> with <strong>5+ years</strong> of experience building scalable backend systems, REST APIs, and production infrastructure. Shipped systems serving <strong>10K+ users</strong>, cut infrastructure costs by <strong>90%</strong>, and delivered <strong>20x performance improvements</strong>. Currently building AI chatbots with <strong>OpenAI &amp; Gemini LLMs</strong> and <strong>RAG pipelines (LangChain, Pinecone)</strong> while owning the full cloud &amp; DevOps stack.
                 </p>
             </section>
 
             <!-- Skills -->
             <section class="animate-on-scroll mb-5">
                 <h2 class="text-sm font-bold text-accent uppercase tracking-widest border-b-2 border-accent pb-1 mb-2.5">Skills</h2>
-                <div class="flex flex-wrap gap-1.5 mt-1">
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Python</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Django</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Django REST Framework</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">FastAPI</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Celery</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">PostgreSQL</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">PgBouncer</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Docker</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Docker Compose</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Nginx</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Linux</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">AWS S3</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">GitHub Actions</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Git</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">LLM / RAG</span>
-                    <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Web Scraping</span>
+                <div class="space-y-2 mt-1">
+                    <div class="flex items-start gap-3">
+                        <span class="text-xs font-bold text-text-primary w-24 shrink-0 pt-1">Backend</span>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Python</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Django</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Django REST Framework</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">FastAPI</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Celery</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">SQLAlchemy</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">PostgreSQL</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Redis</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Web Scraping</span>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-xs font-bold text-text-primary w-24 shrink-0 pt-1">AI &amp; LLM</span>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">OpenAI API</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Gemini API</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">LangChain</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">RAG</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Pinecone</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Prompt Engineering</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">AI Chatbots</span>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-xs font-bold text-text-primary w-24 shrink-0 pt-1">Cloud &amp; DevOps</span>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Docker</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Docker Compose</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">GitHub Actions (CI/CD)</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Nginx</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Linux (Ubuntu)</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">AWS S3</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">PgBouncer</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">SSL / DNS</span>
+                            <span class="skill-tag px-3 py-1 bg-accent-light text-accent text-xs font-semibold rounded-full">Git</span>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -179,13 +205,13 @@
                     </div>
                     <ul class="text-xs text-text-secondary leading-relaxed space-y-0.5 list-disc list-outside ml-4">
                         <li>Reduced monthly infrastructure costs by <strong>90% (&#8377;1L to &#8377;10K)</strong> through server optimization and architecture restructuring.</li>
-                        <li>Sole DevOps owner &mdash; set up <strong>PostgreSQL + PgBouncer</strong>, executed full <strong>server &amp; database migrations</strong>, configured <strong>SSL, domains, and Nginx</strong>.</li>
-                        <li>Integrated <strong>LLM-based APIs with WhatsApp</strong> for intelligent chatbots serving multiple business clients.</li>
-                        <li>Developed <strong>RAG architecture</strong> with file sharing and <strong>AWS S3</strong> integration to enhance chatbot intelligence.</li>
-                        <li>Built <strong>SalesX</strong> (marketing automation) and an <strong>HR recruitment system</strong> using Django.</li>
+                        <li>Sole DevOps owner &mdash; managed <strong>Ubuntu VPS production servers</strong>, set up <strong>PostgreSQL + PgBouncer</strong>, executed full <strong>server &amp; database migrations</strong>, configured <strong>SSL, DNS, domains, and Nginx reverse proxy</strong>.</li>
+                        <li>Built an AI chatbot platform using <strong>OpenAI &amp; Gemini LLM APIs</strong> integrated with <strong>WhatsApp</strong>, serving multiple business clients.</li>
+                        <li>Developed <strong>Retrieval-Augmented Generation (RAG)</strong> pipelines with <strong>LangChain</strong> and <strong>Pinecone vector search</strong> &mdash; document ingestion, file sharing, and <strong>AWS S3</strong> knowledge storage.</li>
+                        <li>Led and contributed to the development of <strong>SalesX</strong> (marketing automation) and an <strong>HR recruitment system</strong> using Django.</li>
                         <li>Set up <strong>CI/CD pipelines</strong> using GitHub Actions, containerized all applications with <strong>Docker</strong>.</li>
-                        <li>Built web scraping bots for automated data collection and analysis.</li>
-                        <li>Led team task alignment and resolved cross-team technical blockers.</li>
+                        <li>Led and contributed to the development of web scraping bots for automated data collection and analysis.</li>
+                        <li>Led backend architecture discussions, mentored junior developers, coordinated cross-functional delivery, and resolved technical blockers.</li>
                     </ul>
                 </div>
 
@@ -218,6 +244,35 @@
                         <li>Reduced the tech team's monitoring workload by automating <strong>cronjob status tracking</strong>.</li>
                         <li>Automated sending <strong>NOC letters</strong> by generating PDFs.</li>
                         <li>Containerized the CMS system backend using Docker.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Open Source Projects -->
+            <section class="animate-on-scroll mb-5">
+                <h2 class="text-sm font-bold text-accent uppercase tracking-widest border-b-2 border-accent pb-1 mb-2.5">Personal Open Source Projects</h2>
+
+                <!-- P.O.D.S. -->
+                <div class="mb-3.5">
+                    <div class="flex justify-between items-baseline mb-1">
+                        <h3 class="text-sm font-semibold text-text-primary">P.O.D.S. <span class="font-normal text-text-muted text-xs">(Postgres Orchestrated Docker Stack)</span></h3>
+                        <a href="https://github.com/jackiedabekar/pods" class="text-xs text-accent font-medium hover:underline whitespace-nowrap ml-4">github.com/jackiedabekar/pods</a>
+                    </div>
+                    <ul class="text-xs text-text-secondary leading-relaxed space-y-0.5 list-disc list-outside ml-4">
+                        <li>High-availability <strong>PostgreSQL 18 cluster</strong> (1 primary + 2 read replicas) with native <strong>streaming replication</strong> and <strong>PgBouncer</strong> transaction-mode pooling, fully orchestrated with <strong>Docker Compose</strong>.</li>
+                        <li>Dynamic replica scaling via CLI, <strong>FastAPI</strong> health API with replica auto-discovery, <strong>Prometheus + Grafana</strong> monitoring, and scheduled backups with <strong>WAL archiving</strong> and <strong>S3</strong> support.</li>
+                    </ul>
+                </div>
+
+                <!-- S.M.O.L. -->
+                <div>
+                    <div class="flex justify-between items-baseline mb-1">
+                        <h3 class="text-sm font-semibold text-text-primary">S.M.O.L. <span class="font-normal text-text-muted text-xs">(Shrink My Oversized Links)</span></h3>
+                        <a href="https://github.com/jackiedabekar/smol" class="text-xs text-accent font-medium hover:underline whitespace-nowrap ml-4">github.com/jackiedabekar/smol</a>
+                    </div>
+                    <ul class="text-xs text-text-secondary leading-relaxed space-y-0.5 list-disc list-outside ml-4">
+                        <li>High-performance asynchronous URL shortener built with <strong>FastAPI</strong>, <strong>SQLAlchemy</strong>, and <strong>PostgreSQL</strong>, with collision-resistant short keys.</li>
+                        <li>Read-through <strong>Redis caching</strong> layer for sub-millisecond redirects on hot links, with database fallback and cache repopulation for cold links.</li>
                     </ul>
                 </div>
             </section>
